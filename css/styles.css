@@ -24,7 +24,11 @@ color: #2196F3;
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
-        color: #2196F3;
+        color: #757575;
+}
+.header-tel:hover,
+.header-tel:focus {
+    color: #2196F3;
 }
 
 .header-mail {
@@ -33,12 +37,14 @@ font-size: 14px;
 line-height: calc(16 / 14);
 letter-spacing: 0.02em;
 
-color: #2196F3;
+color: #757575;
 
 }
 
-.header-tel,
-.header-mail
+.header-mail:hover,
+.header-mail:focus {
+color: #2196F3;
+}
 
 .studio {
 
@@ -167,4 +173,17 @@ color: #212121;
             Weight: 400; 
             Size: 26px; 
             Line height:1,3px;
+    }
+    
+    .addres-footer {
+        font-weight: 400;
+font-size: 14px;
+line-height:calc(24 / 14);
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+    }
+
+    .addres-footer:hover,
+    .addres-footer:focus {
+       color: #2196F3;
     }
