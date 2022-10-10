@@ -13,6 +13,11 @@
 color: #2196F3;
 }
 
+.current {
+    color: #2196F3;
+;
+}
+
 .list {list-style: none;}
 
 :root {
@@ -47,23 +52,17 @@ color: #2196F3;
 }
 
 .studio {
-
-        color: #000;
-        Font:Oleo; 
-        Weight: 400;
-        Size: 26px; 
-        Line height: 1,1; 
+Font:Oleo Script;
+Weight:400;
+Size:26px;
+Line height:calc(35.96 / 26)
+Letter:3%;
+color: #000000
 }
+
 <!-- HERO-->
 
-.hero-section {
-    background: #2F303A;
-    position: absolute;
-        width: 1600px;
-        height: 600px;
-        left: 0px;
-        top: 80px;
-}
+
 .hero-title {
     position: absolute;
         width: 696px;
@@ -85,15 +84,19 @@ color: #2196F3;
         color: #FFFFFF;
 }
     .hero-button {
-        position: absolute;
+font:inherit;
             width: 216px;
             height: 50px;
-            left: 692px;
-            top: 430px;
-            margin-top: 30px;
-        
             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            color: #fff;
+            background-color: #2196F3;
     }
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #0579d8;
+}
+
     <!--BODY--!>
 
         .body {
@@ -119,6 +122,20 @@ text-transform: uppercase;
 
 color: #212121;
         }
+<!--ЗАГОЛОВКИ PORTFOLIO --!>
+
+.visually-hidden {
+    position: absolute;  
+    width: 1px;  
+    height: 1px;  
+    margin: -1px;  
+    border: 0;  
+    padding: 0;  
+    white-space: nowrap;  
+    clip-path: inset(100%);  
+    clip: rect(0 0 0 0);  
+    overflow: hidden;
+}
 
         .about {
             width: 270px;
