@@ -21,7 +21,9 @@ color: #2196F3;
 .list {list-style: none;}
 
 :root {
-   font: 'Raleway'
+--font-family: 'Roboto';
+ --font-style: normal;
+
 }
 
 .header-tel {
@@ -55,34 +57,25 @@ color: #2196F3;
 Font:Oleo Script;
 Weight:400;
 Size:26px;
-Line height:calc(35.96 / 26)
+Line height:calc(35.96 / 26);
 Letter:3%;
-color: #000000
+color: #000000;
 }
 
 <!-- HERO-->
 
 
 .hero-title {
-    position: absolute;
-        width: 696px;
-        height: 120px;
-        left: 452px;
-        top: 280px;
-    
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1,3px;
-        /* or 136% */
-    
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-    margin-bottom: 200px;
-        color: #FFFFFF;
+font-weight: 900;
+font-size: 44px;
+line-height:calc(60 / 44);
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+
 }
+
     .hero-button {
 font:inherit;
             width: 216px;
@@ -97,13 +90,11 @@ font:inherit;
     background-color: #0579d8;
 }
 
-    <!--BODY--!>
-
         .body {
             font-family: 'Roboto', sans-serif;
-            font-style: normal;
-            
+            font-style: normal; 
         }
+
         <!--ЗАГОЛОВКИ ВЕБСТУДІЇ--!>
 
         .section-title {
@@ -122,7 +113,14 @@ text-transform: uppercase;
 
 color: #212121;
         }
-<!--ЗАГОЛОВКИ PORTFOLIO --!>
+
+ .team {
+                
+                font-weight: 500;
+                font-size: 16px;
+                line-height:calc(18.75 / 16);
+                color: #212121;
+        }
 
 .visually-hidden {
     position: absolute;  
@@ -137,51 +135,48 @@ color: #212121;
     overflow: hidden;
 }
 
-        .about {
-            width: 270px;
-                height: 72px;
-                left: 215px;
-                top: 800px;
-            
-                font-family: 'Roboto';
-                font-style: normal;
-                font-weight: 400;
+.btn-portfolio {
+    var(--font-family: 'Roboto');
+    font-weight: 500;
+font-size: 16px;
+line-height:calc(26 / 16);
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+    color: #2196F3;
+}
+
+.about {
+    font-weight: 400;
                 font-size: 14px;
-                line-height: 1,7px;
-                /* or 171% */
-            
+                line-height:calc(24 / 14);
                 letter-spacing: 0.03em;
-            
                 color: #757575;
-        }
-        .team {
-            width: 129px;
-                height: 19px;
-                left: 286px;
-                    top: 1922px;
-            
-                font-family: 'Roboto';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 1,18px;
-                color: #212121;
-        }
+}
+
+.about-portfolio {
+    font-weight: 400;
+font-size: 16px;
+line-height:calc(30 / 16);
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+     
         .main-portfolio-title {
-                width: 322px;
-                height: 36px;
-                left: 239px;
-                top: 576px;
             
                 font-weight: 700;
                 font-size: 18px;
-                line-height: 2px;
-                /* identical to box height, or 200% */
-            
+                line-height:calc(36 / 18);
                 letter-spacing: 0.06em;
-            
                 color: #212121;
         }
+
+
+
     .studio-footer {
         font-family: var(Raleway);
             font-style: normal;
