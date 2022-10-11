@@ -1,7 +1,12 @@
 :root {
   font-family: 'Roboto', sans-serif;
-  color: #ffffff, #2f303a, #2196f3, #000000, rgba(255, 255, 255, 0.6);
-
+  color: #ffffff;
+  color: #2f303a;
+  color: #2196f3;
+  color: #000000;
+  color: rgba(255, 255, 255, 0.6);
+background: #F5F5F5;
+background: #2F303A;
 }
 
 body {
@@ -11,7 +16,7 @@ body {
   color: #757575;
   color: #2196F3;
   color: rgba(255, 255, 255, 0.6);
-  background-color: #2F303A;
+
   background: #F5F5F5;
 }
 
@@ -26,7 +31,6 @@ text-decoration: none;
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
-  color: #2196f3;
 
 }
 
