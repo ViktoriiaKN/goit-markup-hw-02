@@ -1,6 +1,18 @@
 
 :root {
 font-family: 'Roboto', sans-serif;
+color: #FFFFFF, 
+#2F303A, #2196F3, #000000;
+}
+
+.logo-link {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height:calc(31 / 26);
+letter-spacing: 0.03em;
+color: #2196F3;
 }
 
 .header-nav-item {
@@ -54,11 +66,12 @@ color: #2196F3;
 }
 
 .studio {
-font:Oleo Script;
-weight:400;
-size:26px;
-line-height:calc(35.96 / 26);
-letter:3%;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height:calc(31 / 26);
+letter-spacing: 0.03em;
 color: #000000;
 }
 
@@ -99,11 +112,7 @@ font:inherit;
     background-color: #0579d8;
 }
 
-        .body {
-            font-family: 'Roboto', sans-serif;
-            font-style: normal; 
-            background: #F5F5F5;
-        }
+
 
 
         .section-title {
