@@ -1,4 +1,8 @@
 
+:root {
+font-family: 'Roboto', sans-serif;
+}
+
 .header-nav-item {
         font-weight: 500;
         font-size: 14px;
@@ -50,11 +54,11 @@ color: #2196F3;
 }
 
 .studio {
-Font:Oleo Script;
-Weight:400;
-Size:26px;
-Line height:calc(35.96 / 26);
-Letter:3%;
+font:Oleo Script;
+weight:400;
+size:26px;
+line-height:calc(35.96 / 26);
+letter:3%;
 color: #000000;
 }
 
@@ -101,7 +105,6 @@ font:inherit;
             background: #F5F5F5;
         }
 
-        <!--ЗАГОЛОВКИ ВЕБСТУДІЇ--!>
 
         .section-title {
                 font-weight: 700;
@@ -142,13 +145,13 @@ color: #212121;
 }
 
 .btn-portfolio {
-    var(--font-family: 'Roboto');
-    font-weight: 500;
-font-size: 16px;
+    var:(--font-family: 'Roboto');
+    font-weight:500;
+font-size:16px;
 line-height:calc(26 / 16);
-letter-spacing: 0.03em;
-color: #212121;
-cursor: pointer;
+letter-spacing:0.03em;
+color:#212121;
+cursor:pointer;
 }
 
 .btn-portfolio:hover,
@@ -188,10 +191,10 @@ color: #757575;
         font-family: var(Raleway);
             font-style: normal;
             color: #fff;
-            Font: Oleo Script; 
-            Weight: 400; 
-            Size: 26px; 
-            Line height:1,3px;
+            font: Oleo Script; 
+            weight: 400; 
+            size: 26px; 
+            line-height:calc(35,96 / 26);
     }
     
     .addres-footer {
