@@ -24,19 +24,23 @@
 }
 
 .header-nav-item {
-font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
-
-  color: #212121;
-  list-style-type: none;
-  background: #FFFFFF;
+    background: #FFFFFF;
 }
-.header-nav-item:hover,
-.header-nav-item:focus {
-  color: #2196f3;
+
+.nav-list {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height:calc(16 / 14);
+letter-spacing: 0.02em;
+color: #212121;
+
+}
+
+.nav-list:hover,
+.nav-list:focus {
+color: #2196F3;
 }
 
 .current {
