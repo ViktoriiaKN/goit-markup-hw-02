@@ -7,6 +7,7 @@
   color: rgba(255, 255, 255, 0.6);
 background: #F5F5F5;
 background: #2F303A;
+background-color: #188CEB;
 }
 
 body {
@@ -123,8 +124,14 @@ color: #2196F3;
 
 .hero-button {
   font: inherit;
-  width: 216px;
-  height: 50px;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height:calc(30 / 16);
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   color: #fff;
   background-color: #2196f3;
