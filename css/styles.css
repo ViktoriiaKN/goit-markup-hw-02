@@ -1,6 +1,7 @@
 :root {
   font-family: 'Roboto', sans-serif;
   color: #ffffff, #2f303a, #2196f3, #000000, rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
 .logo-link {
@@ -11,6 +12,7 @@
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   color: #2196f3;
+
 }
 
 .studio {
