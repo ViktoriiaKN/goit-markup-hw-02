@@ -52,9 +52,10 @@ color: #2196F3;
 }
 
 .header-tel {
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height:calc(16 / 14);
   letter-spacing: 0.02em;
   color: #757575;
 }
@@ -64,12 +65,13 @@ color: #2196F3;
 }
 
 .header-mail {
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: #2196F3;
 }
 
 .header-mail:hover,
