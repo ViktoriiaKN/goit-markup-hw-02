@@ -47,14 +47,17 @@ text-decoration: none;
 }
 
 .nav-list {
-    font-family: 'Roboto';
+
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height:calc(16 / 14);
 letter-spacing: 0.02em;
-color: #212121;
+}
 
+.color-nav-list {
+  color: #212121;
+  
 }
 
 .nav-list:hover,
