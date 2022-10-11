@@ -109,10 +109,7 @@ color: #2196F3;
 
 .hero-title {
 
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
@@ -136,7 +133,7 @@ color: #2196F3;
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #0579d8;
+  background-color: #188CEB;
 }
 
 .section-title {
