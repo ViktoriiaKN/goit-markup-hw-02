@@ -34,13 +34,11 @@ text-decoration: none;
 
 }
 
-.studio {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: calc(31 / 26);
-  letter-spacing: 0.03em;
+.logo-color {
+  color: #2196F3;
+}
+
+.studio-color {
   color: #000000;
 }
 
@@ -248,13 +246,7 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 
-.studio-footer {
-  font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height:calc(31 / 26);
-letter-spacing: 0.03em;
+.studio-footer-color {
 color: #FFFFFF;
 }
 
