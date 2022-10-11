@@ -1,6 +1,6 @@
 :root {
   font-family: 'Roboto', sans-serif;
-  color: #ffffff, #2f303a, #2196f3, #000000;
+  color: #ffffff, #2f303a, #2196f3, #000000, rgba(255, 255, 255, 0.6);
 }
 
 .logo-link {
@@ -32,6 +32,7 @@ font-family: 'Roboto';
 
   color: #212121;
   list-style-type: none;
+  background: #FFFFFF;
 }
 .header-nav-item:hover,
 .header-nav-item:focus {
@@ -91,7 +92,7 @@ font-family: 'Roboto';
   color: #ffffff;
   background-color: #2f303a;
 }
-}
+
 
 .hero-button {
   font: inherit;
@@ -183,17 +184,43 @@ font-family: 'Roboto';
   color: #212121;
 }
 
+.section-footer {
+    background:#2F303A;
+}
+
+.adrress-target {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height:calc(24 / 14);
+letter-spacing: 0.03em;
+color: #FFFFFF;
+
+}
+
+.mail-footer, .tel-footer {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height:calc(24 / 14);
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
 .studio-footer {
-  font-family: var(Raleway);
-  font-style: normal;
-  color: #fff;
-  font: Oleo Script;
-  weight: 400;
-  size: 26px;
-  line-height: calc(35, 96 / 26);
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height:calc(31 / 26);
+letter-spacing: 0.03em;
+color: #FFFFFF;
 }
 
 .addres-footer {
+font-family: 'Roboto';
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
