@@ -1,20 +1,20 @@
 :root {
   font-family: 'Roboto', sans-serif;
-  white-color: #ffffff;
-  section-hero-color: #2f303a;
-  active-color: #2196f3;
-  font-color: #000000;
-  btn-color: rgba(255, 255, 255, 0.6);
-  p-color: #757575;
-project-background: #FFFFFF;
-hero-background: #2F303A;
-btn-background-color: #188CEB;
-section-background: #F5F4FA;
+  --white-color: #ffffff;
+  --section-hero-color: #2f303a;
+  --active-color: #2196f3;
+  --font-color: #000000;
+  --btn-color: rgba(255, 255, 255, 0.6);
+  --p-color: #757575;
+--project-background: #FFFFFF;
+--hero-background: #2F303A;
+--btn-background-color: #188CEB;
+--section-background: #F5F4FA;
 }
 
 body {
 
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   
   
   background: #FFFFFF;
