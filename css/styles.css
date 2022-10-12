@@ -1,5 +1,5 @@
 :root {
-  font-family: 'Roboto', sans-serif;
+  --font-family: 'Roboto', sans-serif;
   --white-color: #ffffff;
   --section-hero-color: #2f303a;
   --active-color: #2196f3;
@@ -16,9 +16,7 @@
 body {
 
   font-family: 'Roboto', sans-serif;
-  color: var(--project-background);
-  
-  background: #FFFFFF;
+  color: var(--white-color);
 }
 
 .text-decoration {
@@ -123,16 +121,15 @@ color:var(--active-color);
 
 
 .hero-button {
-  font: inherit;
+  font-family: inherit;
 
 font-weight: 700;
 font-size: 16px;
 line-height:calc(30 / 16);
-display: flex;
-align-items: center;
+
 text-align: center;
 letter-spacing: 0.06em;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   color:var(--project-background);
   background-color:var(--btn-background-color);
   cursor: pointer;
@@ -166,6 +163,10 @@ letter-spacing: 0.06em;
 
 .section-team {
   background:var(--section-background);
+}
+
+.section-team-ul {
+  color: var(--white-color);
 }
 
 .team {
@@ -224,7 +225,7 @@ border-radius: 4px;
 
 .about {
 
-  font-size: 14px;
+  font-size: 16px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color:var(--p-color);
@@ -267,6 +268,16 @@ font-size: 14px;
 line-height:calc(24 / 14);
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+}
+
+.mail-footer:hover, 
+.mail-footer:focus {
+  color: var(--active-color);
+}
+
+.tel-footer:hover,
+.tel-footer:focus {
+  color: var(--active-color);
 }
 
 .studio-footer-color {
