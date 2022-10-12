@@ -130,7 +130,7 @@ line-height:calc(30 / 16);
 
 text-align: center;
 letter-spacing: 0.06em;
-  box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
   color:var(--project-background);
   background-color:var(--btn-background-color);
   cursor: pointer;
@@ -138,7 +138,7 @@ letter-spacing: 0.06em;
 
 .hero-button:hover,
 .hero-button:focus {
-  color:var(--btn-background-color);
+  background-color:var(--btn-background-color);
 }
 
 .section-title {
@@ -167,13 +167,13 @@ letter-spacing: 0.06em;
 }
 
 .section-team-ul {
-  color: var(--white-color);
+  background-color: var(--white-color);
 }
 
 .team {
   font-weight: 500;
   font-size: 16px;
-  line-height: calc(18.75 / 16);
+  line-height: calc(19 / 16);
   color:var(--nav-color);
 }
 
@@ -222,10 +222,18 @@ border-radius: 4px;
 
 .about {
 
-  font-size: 16px;
+  font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color:var(--p-color);
+}
+
+.about-team {
+  font-style: normal;
+font-size: 16px;
+line-height:calc(19 / 16);
+letter-spacing: 0.03em;
+color: var(--p-color);
 }
 
 .about-portfolio {
