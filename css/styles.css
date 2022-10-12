@@ -1,26 +1,23 @@
 :root {
   font-family: 'Roboto', sans-serif;
-  color: #ffffff;
-  color: #2f303a;
-  color: #2196f3;
-  color: #000000;
-  color: rgba(255, 255, 255, 0.6);
-  color: #757575;
-background: #F5F5F5;
-background: #2F303A;
-background-color: #188CEB;
-background: #F5F4FA;
+  white-color: #ffffff;
+  section-hero-color: #2f303a;
+  active-color: #2196f3;
+  font-color: #000000;
+  btn-color: rgba(255, 255, 255, 0.6);
+  p-color: #757575;
+project-background: #FFFFFF;
+hero-background: #2F303A;
+btn-background-color: #188CEB;
+section-background: #F5F4FA;
 }
 
 body {
-  font-family: 'Roboto';
-  color:#212121;
-  color: #FFFFFF;
-  color: #757575;
-  color: #2196F3;
-  color: rgba(255, 255, 255, 0.6);
 
-  background: #F5F5F5;
+  font-family: 'Roboto';
+  
+  
+  background: #FFFFFF;
 }
 
 .text-decoration {
