@@ -17,6 +17,7 @@ body {
 
   font-family: 'Roboto', sans-serif;
   color: var(--white-color);
+  background: #ffff;
 }
 
 .text-decoration {
@@ -212,7 +213,7 @@ border-radius: 4px;
 }
 
 .button {
-  background:var(--active-color);
+  background:var(--nav-color);
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 border-radius: 4px;
 
@@ -220,7 +221,8 @@ border-radius: 4px;
 
 .btn-portfolio:hover,
 .btn-portfolio:focus {
-  color:var(--active-color);
+  background-color:var(--active-color);
+  color: var(--white-color);
 }
 
 .about {
@@ -253,7 +255,7 @@ border-radius: 4px;
 
 .adrress-target {
 
-font-weight: 400;
+font-style: normal;
 font-size: 14px;
 line-height:calc(24 / 14);
 letter-spacing: 0.03em;
@@ -263,7 +265,7 @@ color:var(--project-background);
 
 .mail-footer, .tel-footer {
 
-font-weight: 400;
+font-style: normal;
 font-size: 14px;
 line-height:calc(24 / 14);
 letter-spacing: 0.03em;
@@ -285,8 +287,7 @@ color: #FFFFFF;
 }
 
 .addres-footer {
-font-family: 'Roboto';
-  font-weight: 400;
+
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
