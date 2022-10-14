@@ -132,7 +132,7 @@ text-align: center;
 letter-spacing: 0.06em;
 
   color:var(--project-background);
-  background-color:var(--btn-background-color);
+  background-color:var(--active-color);
   cursor: pointer;
 }
 
